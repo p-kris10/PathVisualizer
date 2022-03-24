@@ -1,0 +1,45 @@
+h1{
+    align-content: center;
+    margin:auto;
+}
+.Wrapper{
+    max-width: 80%;
+    margin:auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    flex-basis: 1;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.buttons >*{
+    margin:3px;
+}
+
+.rowWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-dark .btn{
+    margin:20px;
+    width: auto;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px 0 35px;
+    font-size: 15px;
+  }
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
