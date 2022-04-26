@@ -7,10 +7,10 @@ function App() {
     <div className="App">
     <Header/>
     <Switch>
-      <Route exact path='/' render={() => (< PathFind algo={"A*"}/> )}/>
-      <Route exact path='/a-star' render={() => (< PathFind algo={"A*"}/> )}/>
-      <Route exact path='/bfs' render={() => (< PathFind algo={"BFS"}/> )}/>
-      <Route exact path='/dfs' render={() => (< PathFind algo={"DFS"}/> )}/>
+      <Route exact path='/PathVisualizer' render={() => (< PathFind algo={"A*"}/> )}/>
+      <Route exact path='/PathVisualizer/a-star' render={() => (< PathFind algo={"A*"}/> )}/>
+      <Route exact path='/PathVisualizer/bfs' render={() => (< PathFind algo={"BFS"}/> )}/>
+      <Route exact path='/PathVisualizer/dfs' render={() => (< PathFind algo={"DFS"}/> )}/>
     </Switch>
     </div>
   );

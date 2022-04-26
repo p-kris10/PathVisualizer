@@ -14,9 +14,9 @@ const Header = () => {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
                 <NavDropdown title="Algorithms" id="collasible-nav-dropdown">
-                    <LinkContainer to="/a-star"><NavDropdown.Item >A*</NavDropdown.Item></LinkContainer>
-                    <LinkContainer to="/bfs"><NavDropdown.Item >BFS</NavDropdown.Item></LinkContainer>
-                    <LinkContainer to="/dfs"><NavDropdown.Item >DFS</NavDropdown.Item></LinkContainer>
+                    <LinkContainer to="/PathVisualizer/a-star"><NavDropdown.Item >A*</NavDropdown.Item></LinkContainer>
+                    <LinkContainer to="/PathVisualizer/bfs"><NavDropdown.Item >BFS</NavDropdown.Item></LinkContainer>
+                    <LinkContainer to="/PathVisualizer/dfs"><NavDropdown.Item >DFS</NavDropdown.Item></LinkContainer>
                     
                     
                     
